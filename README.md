@@ -2,6 +2,8 @@
 
 A calm menu bar app for your Mac. Your projects sit one click away from a coding agent, with a to-do list and saved links that the agents can read, and a quiet eye on RAM and disk.
 
+The Mac tab is built on [baa](https://github.com/selviarora/baa) by Selvi Arora.
+
 <img src="docs/screenshots/menubar.png" alt="The cmd menu bar item: a small rising sun and 64%" width="146">
 
 | Projects | To-do |

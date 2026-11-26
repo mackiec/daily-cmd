@@ -1,6 +1,15 @@
-Parts of cmd are adapted from baa (https://github.com/selviarora/baa):
-Sources/Health/, GUIInstance in Sources/App.swift, Bar and Spark in Sources/UI/Components.swift,
-and the Mac tab layout in Sources/UI/MacTab.swift.
+Parts of cmd are adapted from baa by Selvi Arora (https://github.com/selviarora/baa),
+used under the MIT License below:
+
+- Sources/Health/Mem.swift, Procs.swift, Engine.swift, Disk.swift, Health.swift and Monitor.swift:
+  RAM readings, process scanning, leftover detection, freeing, dev-junk cleanup, warning levels
+  and notifications
+- GUIInstance (the single-instance check) in Sources/App.swift
+- Bar and Spark (the bar and sparkline views) in Sources/UI/Components.swift
+- The Mac tab layout in Sources/UI/MacTab.swift
+- build.sh and install.sh
+
+Everything else in cmd is original, including Sources/Health/Demo.swift.
 
 MIT License
 
